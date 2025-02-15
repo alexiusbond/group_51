@@ -178,3 +178,4 @@ print(f'Total fuel banks: {bmw_car + toyota_car}')
 FuelCar.show_fuel_remain()
 
 print(f'Factory FUEL_CAR uses {FuelCar.get_fuel_type()}')
+# 123
