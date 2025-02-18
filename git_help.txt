@@ -36,3 +36,5 @@ git checkout -b <name> - создает новую ветку с именем <n
 git branch --delete <name> - удаляет ветку локально
 git push origin --delete <name> - удаляет ветку в репозитории
 git merge <name> - сливает изменения из ветки <name> в текущую ветку.
+
+git reset --hard <hashcode of commit> - откат к предыдущему коммиту, при этом последующие коммиты удаляются
